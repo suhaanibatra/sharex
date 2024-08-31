@@ -6,7 +6,7 @@ import SignUp from './pages/SignUp'
 import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
 import Header from './components/Header'
-import SignIn from './pages/Signin'
+import Signin from './pages/Signin'
 import Footer from './components/Footer'
 import PrivateRoute from './components/PrivateRoute'
 import OnlyAdminPrivateRoute from './components/OnlyAdminPrivateRoute'
@@ -23,7 +23,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/sign-in' element={<SignIn/>}/>
+        <Route path='/sign-in' element={<Signin />}/>
         <Route path='/sign-up' element={<SignUp/>}/>
         <Route path='/search' element={<Search />}/>
         <Route element={<PrivateRoute />}>
