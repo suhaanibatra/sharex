@@ -5,7 +5,7 @@ import { signInStart, signInSuccess, signInFailure } from "../redux/user/userSli
 import {useDispatch, useSelector} from 'react-redux';
 import OAuth from "../components/OAuth";
 
-export default function Signin() {
+export default function SignIn() {
 
   const [formData, setFormData] = useState({});
   const { loading, error: errorMessage } = useSelector((state) => state.user); 
